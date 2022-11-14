@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(8, 1, 75);
+}
+
+.list {
+  width: 500px;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid #000;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.item {
+  background-color: rgb(0, 79, 143);
+  border: 1px solid #000;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  margin-right: 30px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+
+  border: 2px solid rgb(0, 64, 116);
+}
+
+.btn:hover {
+  background-color: rgb(96, 154, 202);
+  cursor: pointer;
+}
