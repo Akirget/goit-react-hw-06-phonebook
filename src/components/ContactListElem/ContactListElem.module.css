@@ -1,17 +1,13 @@
-body {
-  background-color: rgb(8, 1, 75);
-}
-
 .list {
-  width: 500px;
-  margin: auto;
-  background-color: rgb(255, 255, 255);
+  background-color: #004f8f;
+  border: 1px solid #000;
+  border-radius: 4px;
   display: flex;
-  justify-content: center;
-  flex-direction: column;
-  border: 2px solid #000;
-  padding: 20px;
-  border-radius: 10px;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 10px;
+  width: 100%;
+  align-items: center;
 }
 
 .item {
@@ -24,17 +20,23 @@ body {
   justify-content: space-between;
 }
 
-.contact {
-  margin-right: 30px;
+.number {
+  margin-right: 10px;
+  font-style: italic;
 }
 
-.btn {
+.button {
   background-color: rgb(255, 255, 255);
-
+  height: 100%;
   border: 2px solid rgb(0, 64, 116);
 }
 
-.btn:hover {
+.button:hover,
+.button:focus {
   background-color: rgb(96, 154, 202);
   cursor: pointer;
+}
+
+.button:active {
+  transform: translateY(2px);
 }
